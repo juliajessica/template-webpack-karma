@@ -32,13 +32,17 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
     $ npm -v
   ````
   #### Homebrew Installation
-  ```If you do not have Homebrew installed yet, you may install it by copying and pasting this command:
-     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```Next, ensure Homebrew packages are run before the system versions of the same (which may be dated or not what we want) by executing the following:
+  If you do not have Homebrew installed yet, you may install it by copying and pasting this command:
+  ```sh
+    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+  Next, ensure Homebrew packages are run before the system versions of the same (which may be dated or not what we want) by executing the following:
+  ```sh
     $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
   ```
   #### Karma Installation
-  ```If you do not have Karma installed globally, then run the following:
+  If you do not have Karma installed globally, then run the following:
+  ```sh   
      $ npm install -g karma-cli
    ```
   #### Install dependencies
@@ -47,11 +51,16 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
   ```
 
   #### Working with the project in Node:
-  ```To build and bundle the project in webpack run the following:
+  To build and bundle the project in webpack run the following:
+  ```sh
     $ npm run build
-  ```To run the local test server:
+  ```
+  To run the local test server:
+  ```sh
     $ npm run start
-  ```To run test in Karma:
+  ```
+  To run test in `Karma`:
+  ```sh
     $ npm test
   ```
 
@@ -64,11 +73,11 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 | Development dependencies | Front end dependencies |
 | :------------ | :------------- |
-| * webpack | * bootstrap |
-| * eslint | * jquery |
-| * karma & jasmine | * popper
-| * babel-loader |  |
-| * css-loader & style-loader | | |
+| Webpack | Bootstrap |
+| Eslint | JQuery |
+| Karma & Jasmine | Popper
+| Babel-loader |  |
+| Css-loader & Style-loader | | |
 
 
 
