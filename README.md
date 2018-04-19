@@ -1,6 +1,6 @@
 <p align="center"><img width=27% src="https://github.com/juliajessica/template-webpack-karma/blob/master/media/epicodus_logo.png"></p>
 
-<p align="center"># _Julia Sheremet_</p>
+# _<p align="center">Julia Sheremet</p>_
 
 #### _Assignment for Epicodus_
 
