@@ -85,12 +85,8 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 ### <span style="color:#74875d;">Specs</span>
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will verify if the poem has three lines | Input: "three sentences" | Output: true |
-| The program will return number of vowels in a single word | Input: "hello" | Output: "2" |
-| The program will subtract a silent 'e' at the end of a word (a vowel preceded by a consonant) | Input: "take" | Output: "1" |
-| The program will subtract 1 vowel for each diphthong in a word | Input: "pain" | Output: "1" |
-| The program will return number of vowels in multiple words | Input: "hello there" | Output: "3" |
-| The program will return number of vowels in multiple words | Input1: "When breaking the fast" Input2: "As the sun heads to the west" Input3: "The sweet taste of dates"| Output: [3,7,3] |
+| The program will  | Input: "" | Output:  |
+
 
 
 ### <span style="color:#74875d;">License</span>
