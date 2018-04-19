@@ -18,8 +18,8 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
 * If you already have Node, Homebrew, and Karma installed, then skip to "Install Dependencies."
 
   #### Node: Windows / Linux Installation Instructions
-  ```To install Node on other systems, go to the <a href="https://nodejs.org/en/">Node website</a>, download and install the appropriate installer for your operating system.
-  ```
+  To install Node on other systems, go to the <a href="https://nodejs.org/en/">Node website</a>, download and install the appropriate installer for your operating system.
+  
 
   #### Node: OSX Installation Instructions
   ```On OS X systems, install Node.js through Homebrew with the following command in your home directory:
