@@ -2,9 +2,9 @@
 
 # _<p align="center">Julia Sheremet</p>_
 
-#### _Assignment for Epicodus_
+#### _<p align="center">Assignment for Epicodus</p>_
 
-#### By: _**Julia Sheremet**_
+#### By: _**<p align="center">Julia Sheremet</p>**_
 
 ## <span style="color:#74875d;">Description</span>
 
