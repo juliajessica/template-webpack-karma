@@ -24,7 +24,9 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
   #### Node: OSX Installation Instructions
   ```On OS X systems, install Node.js through Homebrew with the following command in your home directory:
     $ brew install node
+  ```
   ```Confirm that node and npm (node package manager, installed automatically with Node) are in place by checking the versions (Node should be 4.0.x or higher, npm should be 3.6.x or higher):
+  ```
     $ node -v
     $ npm -v
   ````
