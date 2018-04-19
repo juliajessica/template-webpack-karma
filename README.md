@@ -4,7 +4,7 @@
 
 #### _<p align="center">Assignment for Epicodus</p>_
 
-#### By: _**<p align="center">Julia Sheremet</p>**_
+#### _**<p align="center">By: Julia Sheremet</p>**_
 
 ## <span style="color:#74875d;">Description</span>
 
