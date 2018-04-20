@@ -83,7 +83,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 | Eslint | JavaScript (JQuery) |
 | Karma & Jasmine | Popper
 | Babel-loader |  |
-| Css-loader & Style-loader | | |
+| CSS-loader & Style-loader | | |
 
 
 
