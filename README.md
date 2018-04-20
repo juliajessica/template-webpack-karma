@@ -13,16 +13,19 @@
 
 ## <span style="color:#74875d;">Description</span>
 
-_This webpage application is designed to...._ 
+_This webpage application is designed to...._
 
-## <span style="color:#74875d;">Setup/Installation Requirements</span>
+## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
+
+GlyphGreat if you're copying and pasting into a Desktop application.
+
 
 * Clone repository on your local computer.
 * If you already have Node, Homebrew, and Karma installed, then skip to **Install Dependencies**.
 
   #### Node: Windows / Linux Installation Instructions
   To install `Node` on other systems, go to the <a href="https://nodejs.org/en/">Node website</a>, download and install the appropriate installer for your operating system.
-  
+
   #### Node: OSX Installation Instructions
   On OS X systems, install `Node.js` through Homebrew with the following command in your home directory:
     ```sh
@@ -32,7 +35,7 @@ _This webpage application is designed to...._
   ```sh
     $ node -v
     $ npm -v
-  ````
+  ```
   #### Homebrew Installation
   If you do not have `Homebrew` installed yet, you may install it by copying and pasting this command:
   ```sh
@@ -45,10 +48,11 @@ _This webpage application is designed to...._
   #### Karma Installation
   If you do not have `Karma` installed globally, then run the following:
   ```sh   
-     $ npm install -g karma-cli
+    $ npm install -g karma-cli
    ```
   #### Install dependencies
-  ```Enter the following code in the command line to install all dependencies:
+  Enter the following code in the command line to install all dependencies:
+  ```sh
     $ npm install
   ```
 
@@ -69,14 +73,14 @@ _This webpage application is designed to...._
 
 ## <span style="color:#74875d;">Known Bugs</span>
 
-_Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@gmail.com) if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments of my work._
+_Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@gmail.com) if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments of my work. :+1:_
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
 | Development dependencies | Front end dependencies |
 | :------------ | :------------- |
-| Webpack | Bootstrap |
-| Eslint | JQuery |
+| Webpack | CSS (Bootstrap) |
+| Eslint | JavaScript (JQuery) |
 | Karma & Jasmine | Popper
 | Babel-loader |  |
 | Css-loader & Style-loader | | |
