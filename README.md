@@ -15,10 +15,10 @@
 
 _This webpage application is designed to...._
 
+
+_This project uses Webpack to bundle and minify the code. The test runner is Karma and the syntax flavor is Jasmine. Babel is used to transpile ES6. All dependencies required are included in this project._
+
 ## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
-
-GlyphGreat if you're copying and pasting into a Desktop application.
-
 
 * Clone repository on your local computer.
 * If you already have Node, Homebrew, and Karma installed, then skip to **Install Dependencies**.
