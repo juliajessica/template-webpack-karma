@@ -69,7 +69,10 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
   ```sh
     $ npm test
   ```
-
+    #### Install Copy Webpack Plugin
+    ```sh
+    npm i -D copy-webpack-plugin
+    ```
 
 ## <span style="color:#74875d;">Known Bugs</span>
 
