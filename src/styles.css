@@ -37,6 +37,7 @@ body {
 }*/
 
 .grid-name {
+  height: 100%;
   display: grid;
   grid-template: repeat(10, [row-start] 1fr [row-end]) / repeat(10, [col-start] 1fr [col-end]);
   grid-gap: 1em;
@@ -64,7 +65,7 @@ body {
   height:300px;
 }
 
-.name h1 {
+.grid-name h1 {
   padding-top: 100px;
   text-align: center;
   font-size: 40px;
@@ -72,12 +73,12 @@ body {
   font-weight: lighter;
 }
 
-.name p {
-  padding: 0 20px 0 20px;
+.grid-name p {
+  padding: 0 10px 0 10px;
   text-align: center;
   font-family: 'Arapey', serif;
   font-size: 19px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .svg-social {
