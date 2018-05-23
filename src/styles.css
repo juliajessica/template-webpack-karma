@@ -1,3 +1,12 @@
+body {
+  background-color: #913E1D;
+  background-image: -webkit-linear-gradient(right, #D4886A, #913E1D);
+  background-image: -moz-linear-gradient(right, #D4886A, #913E1D);
+  background-image: -o-linear-gradient(right, #D4886A, #913E1D);
+  background-image: -ms-linear-gradient(right, #D4886A, #913E1D);
+  background-image: linear-gradient(right, #D4886A, #913E1D);
+}
+
 .grid {
   display:grid;
   grid-template-rows: repeat(10, 10px);
@@ -24,18 +33,33 @@
   text-align: center;
 }
 
-/*svg {
-  color: #fff;
+a {
+  outline: none;
+  border: 0;
   text-decoration: none;
-}*/
+  color: #3b3c3d;
+}
 
-a svg:hover .svg-mail,
-a svg:hover .svg-linkedIn,
-a svg:hover .svg-blog,
-a svg:hover .svg-ig,
-a svg:hover .svg-fb
- {
-  color: yellow;
+svg {
+  height: 30px;
+  width: auto;
+}
+
+a svg:hover .svg-mail {
+ color: #a0f7e1;
+}
+
+a svg:hover .svg-linkedIn {
+  color: #f7a0f7;
+}
+a svg:hover .svg-blog {
+ color: #f7e547;
+}
+a svg:hover .svg-ig {
+color: #5e91ff;
+}
+a svg:hover .svg-fb {
+  color: #71c145;
 }
 
 a svg .svg-mail,
