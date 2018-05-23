@@ -45,8 +45,9 @@ body {
 
 .name-details {
   padding: 10px;
-  grid-row-start: 0;
-  grid-column-end: 2;
+  grid-area: 0 / 1 / 5 / 6;
+  /*grid-row-start: 0;
+  grid-column-end: 2;*/
   background-image: -webkit-linear-gradient(right, #d8c7c7, #ad9883);
   background-image: -moz-linear-gradient(right, #d8c7c7, #ad9883);
   background-image: -o-linear-gradient(right, #d8c7c7, #ad9883);
