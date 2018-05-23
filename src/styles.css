@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Homemade+Apple');
+
 body {
-  background-color: #913E1D;
-  background-image: -webkit-linear-gradient(right, #D4886A, #913E1D);
-  background-image: -moz-linear-gradient(right, #D4886A, #913E1D);
-  background-image: -o-linear-gradient(right, #D4886A, #913E1D);
-  background-image: -ms-linear-gradient(right, #D4886A, #913E1D);
-  background-image: linear-gradient(right, #D4886A, #913E1D);
+  background-color: #B9B5B3;
+  background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
+  margin: 20px;
 }
 
 .grid {
@@ -29,7 +32,20 @@ body {
   grid-row-start: 0;
 }*/
 
-.name {
+.name h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.name p {
+  font-family: 'Arapey', serif;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.svg-social {
   text-align: center;
 }
 
