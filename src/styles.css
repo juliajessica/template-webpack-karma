@@ -10,11 +10,22 @@
 }
 
 /*.grid-item2 {
-  grid-row-start: ;
+  grid-row-end: ;
 }
 .grid-item3 {
   grid-row-start: 0;
 }
 .grid-item4 {
   grid-row-start: 0;
+}*/
+
+.name {
+  text-align: center;
+}
+
+
+/*.sidebar {
+  display:flex;
+  justify-content: space-between;
+  align-items: ;
 }*/
