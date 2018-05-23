@@ -3,6 +3,7 @@
   grid-template-rows: repeat(10, 10px);
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 1em;
+  /*align-items: center;*/
 }
 
 .grid-item1 {
@@ -23,6 +24,31 @@
   text-align: center;
 }
 
+/*svg {
+  color: #fff;
+  text-decoration: none;
+}*/
+
+a svg:hover .svg-mail,
+a svg:hover .svg-linkedIn,
+a svg:hover .svg-blog,
+a svg:hover .svg-ig,
+a svg:hover .svg-fb
+ {
+  color: yellow;
+}
+
+a svg .svg-mail,
+a svg .svg-mail,
+a svg .svg-blog,
+a svg .svg-ig,
+a svg .svg-fb
+ {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
 
 /*.sidebar {
   display:flex;
