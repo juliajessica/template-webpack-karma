@@ -2,13 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-<<<<<<< HEAD
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-=======
 const Dotenv = require('dotenv-webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
 
 module.exports = {
   entry: './src/main.js',
@@ -31,12 +27,8 @@ module.exports = {
       template: './src/index.html',
       inject: 'body'
     }),
-<<<<<<< HEAD
-    new CopyWebpackPlugin([ {from: 'src/img/', to: 'img'} ])
-=======
     new Dotenv(),
-    new CopyWebpackPlugin([ {from: 'src/img/', to: 'img'} ]),
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
+    new CopyWebpackPlugin([ {from: 'src/img/', to: 'img'} ])
   ],
   module: {
     rules: [
