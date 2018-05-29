@@ -110,11 +110,17 @@ a svg .svg-fb
 }
 
 .grid-2 {
+  margin-top: 10px;
   display:grid;
-  grid-template-rows: repeat(10, 10px);
-  grid-template-columns: repeat(10, 1fr);
+  grid-template: repeat(3, [row-start] 1fr [row-end]) / repeat(3, [col-start] 1fr [col-end]);
   grid-gap: 1em;
   align-items: center;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(right, #d8c7c7, #ad9883);
+  background-image: -moz-linear-gradient(right, #d8c7c7, #ad9883);
+  background-image: -o-linear-gradient(right, #d8c7c7, #ad9883);
+  background-image: -ms-linear-gradient(right, #d8c7c7, #ad9883);
+  background-image: linear-gradient(right, #d8c7c7, #ad9883);
 }
 
 /*.grid-item1 {
