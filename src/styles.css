@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey|Homemade+Apple');
 
 body {
-  margin: 20px;
+  /*margin: 20px;*/
   background-color: #B9B5B3;
   background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
   background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
@@ -10,28 +10,6 @@ body {
   background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
   /*max-width: 1500px;*/
 }
-
-/*.grid-second {
-  display:grid;
-  grid-template-rows: repeat(10, 10px);
-  grid-template-columns: repeat(10, 1fr);
-  grid-gap: 1em;
-  /*align-items: center;
-}*/
-
-/*.grid-item1 {
-  grid-row-start: 0;
-}*/
-
-/*.grid-item2 {
-  grid-row-end: ;
-}
-.grid-item3 {
-  grid-row-start: 0;
-}
-.grid-item4 {
-  grid-row-start: 0;
-}*/
 
 .grid-name {
   height: 100%;
@@ -47,7 +25,7 @@ body {
   align-content: end;
 }
 
-.name-details {
+.grid-details {
   justify-self: center;
   /*grid-area: 1 / 2 / 1 / 8;*/
   /*grid-row-start: 0;
@@ -131,22 +109,26 @@ a svg .svg-fb
   -webkit-transition-timing-function: ease-in-out;
 }
 
-/*.grid-2 {
-  height: 100%;
-  display: grid;
-  grid-template: repeat(10, [row-start] 1fr [row-end]) / repeat(10, [col-start] 1fr [col-end]);
+.grid-2 {
+  display:grid;
+  grid-template-rows: repeat(10, 10px);
+  grid-template-columns: repeat(10, 1fr);
   grid-gap: 1em;
-  justify-content: flex-start;
+  align-items: center;
 }
 
-.details {
-  padding: 10px;
-  grid-area: 1 / 1 / 2 / 8;
-  background-image: -webkit-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -moz-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -o-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -ms-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: linear-gradient(right, #d8c7c7, #ad9883);
+/*.grid-item1 {
+  grid-row-start: 0;
+}*/
+
+/*.grid-item2 {
+  grid-row-end: ;
+}
+.grid-item3 {
+  grid-row-start: 0;
+}
+.grid-item4 {
+  grid-row-start: 0;
 }*/
 
 
