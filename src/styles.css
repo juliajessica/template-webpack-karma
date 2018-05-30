@@ -5,17 +5,7 @@
 }*/
 
 body {
-font-family: 'Open Sans', sans-serif;
-
-  /*background-image: url("http://stillblog.net/app/uploads/2018/05/young-leaves-4b.jpg");*/
-  /*margin: 20px;*/
-  /*background-color: #B9B5B3;
-  background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);*/
-  /*max-width: 1500px;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 .grid-name {
@@ -25,7 +15,7 @@ font-family: 'Open Sans', sans-serif;
   grid-gap: 1em;
   /*grid-template: repeat(10, [row-start] 1fr [row-end]) / repeat(10, [col-start] 1fr [col-end]);*/
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /*grid-template-rowa*/
+  /*grid-template-rows*/
 
   grid-auto-rows: dense;
   /*grid-template-rows: repeat(10, [row-start] 1fr [row-end]);
@@ -36,6 +26,7 @@ font-family: 'Open Sans', sans-serif;
 
 .grid-details {
   justify-self: center;
+  margin: 5px;
   /*grid-area: 1 / 2 / 1 / 8;*/
   /*grid-row-start: 0;
   grid-column-end: 6;*/
@@ -43,11 +34,23 @@ font-family: 'Open Sans', sans-serif;
 
 .name-style {
   padding: 10px;
-  background-image: -webkit-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -moz-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -o-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: -ms-linear-gradient(right, #d8c7c7, #ad9883);
-  background-image: linear-gradient(right, #d8c7c7, #ad9883);
+  background-color: #B9B5B3;
+  background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
+}
+
+.name-style h1 {
+  padding-left: 30px;
+  padding-bottom: 100px;
+
+  position: absolute;
+}
+
+.name-style h1 {
+
 }
 
 .img-profile {
@@ -116,6 +119,15 @@ a svg .svg-fb
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+}
+
+.grid-details-test {
+  background-color: #B9B5B3;
+  background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
+  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
 }
 
 .parallax {
