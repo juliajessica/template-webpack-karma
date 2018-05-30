@@ -1,32 +1,8 @@
-<<<<<<< HEAD
-<p align="center"><img width=27% src="src/img/epicodus_logo.png"></p>
-
 # _<p align="center">Julia Sheremet</p>_
-
-=======
-<p align="center"><img width=27% src="https://github.com/juliajessica/template-webpack-karma/blob/master/media/epicodus_logo.png"></p>
-
-# _<p align="center">Julia Sheremet</p>_
-
-#### _<p align="center">Assignment for Epicodus</p>_
-
-#### _**<p align="center">By: Julia Sheremet</p>**_
-
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
-<p align="center">  
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-<a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square"></a>
-</p>
 
 ## <span style="color:#74875d;">Description</span>
 
 _This webpage application is designed to...._
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
-_This project uses Webpack to bundle and minify the code. The test runner is Karma and the syntax flavor is Jasmine. Babel is used to transpile ES6. All dependencies required are included in this project._
 
 ## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
 
@@ -46,9 +22,7 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
     $ node -v
     $ npm -v
   ```
-<<<<<<< HEAD
 
-=======
   #### Homebrew Installation
   If you do not have `Homebrew` installed yet, you may install it by copying and pasting this command:
   ```sh
@@ -58,73 +32,29 @@ _This project uses Webpack to bundle and minify the code. The test runner is Kar
   ```sh
     $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
   ```
-  #### Karma Installation
-  If you do not have `Karma` installed globally, then run the following:
-  ```sh   
-    $ npm install -g karma-cli
-   ```
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
+
   #### Install dependencies
   Enter the following code in the command line to install all dependencies:
   ```sh
     $ npm install
   ```
 
-  #### Working with the project in Node:
-  To build and bundle the project in webpack run the following:
-  ```sh
-    $ npm run build
-  ```
-<<<<<<< HEAD
   To run the local server:
   ```sh
     $ npm run start
   ```
-=======
-  To run the local test server:
-  ```sh
-    $ npm run start
-  ```
-  To run test in `Karma`:
-  ```sh
-    $ npm test
-  ```
-    #### Install Copy Webpack Plugin
-    ```sh
-    npm i -D copy-webpack-plugin
-    ```
 
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
 ## <span style="color:#74875d;">Known Bugs</span>
 
 _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@gmail.com) if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments of my work. :+1:_
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
-<<<<<<< HEAD
 | Front end dependencies |
 | :------------ | :------------- |
 | Webpack |
 | CSS |
-=======
-| Development dependencies | Front end dependencies |
-| :------------ | :------------- |
-| Webpack | CSS (Bootstrap) |
-| Eslint | JavaScript (JQuery) |
-| Karma & Jasmine | Popper
-| Babel-loader |  |
-| CSS-loader & Style-loader | | |
 
-
-
-
-### <span style="color:#74875d;">Specs</span>
-| Behavior | Input | Output |
-| :-------------     | :------------- | :------------- |
-| The program will  | Input: "" | Output:  |
-
-
->>>>>>> 44661aa26657251881184df501f7a5b8b445fdfe
 
 ### <span style="color:#74875d;">License</span>
 
