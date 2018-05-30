@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Arapey|Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Arapey|Anton|Open+Sans');
+
+/*@font-face {
+
+}*/
 
 body {
+font-family: 'Open Sans', sans-serif;
+
+  /*background-image: url("http://stillblog.net/app/uploads/2018/05/young-leaves-4b.jpg");*/
   /*margin: 20px;*/
-  background-color: #B9B5B3;
+  /*background-color: #B9B5B3;
   background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
   background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
   background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
   background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
+  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);*/
   /*max-width: 1500px;*/
 }
 
@@ -18,6 +25,8 @@ body {
   grid-gap: 1em;
   /*grid-template: repeat(10, [row-start] 1fr [row-end]) / repeat(10, [col-start] 1fr [col-end]);*/
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /*grid-template-rowa*/
+
   grid-auto-rows: dense;
   /*grid-template-rows: repeat(10, [row-start] 1fr [row-end]);
   grid-template-columns: repeat(10, [col-start] 1fr [col-end]);*/
@@ -51,8 +60,8 @@ body {
 .grid-name h1 {
   padding-top: 100px;
   text-align: center;
-  font-size: 40px;
-  font-family: 'Homemade Apple', cursive;
+  font-size: 55px;
+  font-family: 'Anton', sans-serif;
   font-weight: lighter;
 }
 
@@ -109,7 +118,18 @@ a svg .svg-fb
   -webkit-transition-timing-function: ease-in-out;
 }
 
-.grid-2 {
+.parallax {
+  background-image: url("http://stillblog.net/app/uploads/2018/05/young-leaves-4b.jpg");
+  /* Set a specific height */
+  min-height: 160px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.grid-2 {
   margin-top: 10px;
   display:grid;
   grid-template: repeat(3, [row-start] 1fr [row-end]) / repeat(3, [col-start] 1fr [col-end]);
@@ -121,7 +141,7 @@ a svg .svg-fb
   background-image: -o-linear-gradient(right, #d8c7c7, #ad9883);
   background-image: -ms-linear-gradient(right, #d8c7c7, #ad9883);
   background-image: linear-gradient(right, #d8c7c7, #ad9883);
-}
+}*/
 
 /*.grid-item1 {
   grid-row-start: 0;
