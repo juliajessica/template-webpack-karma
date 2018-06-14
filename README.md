@@ -50,7 +50,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
-| Front end dependencies |
+| Front end dependencies | | 
 | :------------ | :------------- |
 | Webpack | CSS |
 
