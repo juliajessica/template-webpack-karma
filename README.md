@@ -52,8 +52,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 | Front end dependencies |
 | :------------ | :------------- |
-| Webpack |
-| CSS |
+| Webpack | CSS |
 
 
 ### <span style="color:#74875d;">License</span>
